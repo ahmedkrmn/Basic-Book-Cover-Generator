@@ -1,0 +1,72 @@
+#main_fraim{
+     width:400px; 
+     height:800px;
+}
+
+#upper1{
+    display: table; 
+    width:400px; 
+    height: 100px; 
+    overflow: hidden; 
+    border-style:solid;
+}
+
+#upper2{
+    display: table-cell; 
+    vertical-align: middle;
+}
+
+#aname{
+    color:white;
+    text-align:center;
+}
+
+#rsub{
+    color:white;
+    text-align:center;
+    font-style: italic;
+    font-family: inherit;
+}
+
+#center{
+    display: table; 
+    width:400px; 
+    height: 250px; 
+    overflow: hidden; 
+    border-left:solid; 
+    border-right:solid;
+}
+
+#center2{
+    display: table-cell; 
+    vertical-align: middle; 
+    text-align:center;
+}
+
+#bottom{
+    display: table; 
+    width:400px; 
+    height: 100px; 
+    overflow: hidden; 
+    border-style:solid;
+}
+
+#bottom2{
+    display: table-cell; 
+    vertical-align: middle;
+}
+
+#ainfo{
+    color:white;
+    text-align:center;
+}
+
+#rpub{
+    font-style: italic;
+    font-weight: bold;
+}
+
+#ryear{
+    transform: rotate(-90deg);
+    font-style: italic;
+}
